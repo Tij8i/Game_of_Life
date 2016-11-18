@@ -1,0 +1,115 @@
+<head>
+
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
+<style>
+#visible-page {
+  background-color:#EDF6FF;
+  font-family: 'Oswald', sans-serif;
+  box-shadow:10px 10px 10px #888888;
+}
+
+p{
+  font-size:14px;
+  text-align:justify;
+}
+
+h1{
+  color:#F4B9FF; 
+  font-size:60px;
+}
+.img {
+    position: relative;
+    float: middle;
+    width:  320px;
+    height: 160px;
+    background-position: 50% 50%;
+}
+
+
+#foto{
+  padding-top: 30px;
+  align: auto;
+  width:100%;
+  height:87%;
+  margin: 0 auto;
+}
+
+.img-fluid{
+  max-with:100%;
+  height: auto;
+}
+
+#top-left{
+  height:360px;
+  margin:auto;
+}
+
+#top-right{
+  height: 360px;
+  margin: auto;
+}
+
+
+
+</style>
+
+</head>
+
+
+<div class="container" id="visible-page">
+  <div class="row" id="top">
+    <div class="col-md-8" id="top-left">
+      <div class="row" id="title">
+        <h1 style="text-align:center">John Horton Conway</h1>
+      </div>
+      <div class="row" id="subtitle">
+        <h3 style="text-align:center">Father of the Game of life</h3>
+      </div>
+      <div class="row" id="embedded">
+        <div class="col-md-6">
+          <iframe       src="https://www.youtube.com/embed/CgOcEZinQ2I" class="img"></iframe>
+        </div>
+        <div class="col-md-6">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/Gospers_glider_gun.gif" class="img">
+        </div>
+      </div>
+    </div>
+    <div id="top-right" class="col-md-4">
+      <img src="https://www.quantamagazine.org/wp-content/uploads/2015/08/Conway_1k.jpg" alt="Pic of Conway. too bad you can't see it..." id="foto" class="img-fluid">
+    </div>
+  </div>
+  <div class="row" id="block1">
+    <div class="col-md-6">
+      <h2>What is the Game of life</h2>
+      <p>The Game of Life (or simply Life) is not a game in the conventional sense. There are no players, and no winning or losing. Once the "pieces" are placed in the starting position, the rules determine everything that happens later. Nevertheless, Life is full of surprises! In most cases, it is impossible to look at a starting position (or pattern) and see what will happen in the future. The only way to find out is to follow the rules of the game.</p>
+    </div>
+    <div class="col-md-6">
+      <h2>Why is it yeeip!</h2>
+      <p>Life is one of the simplest examples of what is sometimes called "emergent complexity" or "self-organizing systems." This subject area has captured the attention of scientists and mathematicians in diverse fields. It is the study of how elaborate patterns and behaviors can emerge from very simple rules. It helps us understand, for example, how the petals on a rose or the stripes on a zebra can arise from a tissue of living cells growing together. It can even help us understand the diversity of life that has evolved on earth.</p>
+    </div>
+    <div class="col-md-12">
+    <i>Source: <a href=" http://www.math.com/students/wonders/life/life.html">http://www.math.com/students/wonders/life/life.html</a></i>
+    </div>
+    </div>
+  <div class="row" id="block2">
+    <div class="col-md-12">
+    <h2>Mr. Conway and the birth of the Game of Life</h2>
+    <p>Conway's career is intertwined with mathematics popularizer and Scientific American columnist Martin Gardner. When Gardner featured Conway's Game of Life in his Mathematical Games column in October 1970, it became the most widely read of all his columns and made Conway an instant celebrity. Gardner and Conway had first corresponded in the late 1950s, and over the years Gardner had frequently written about recreational aspects of Conway's work. For instance, he discussed Conway's game of Sprouts (Jul 1967), Hackenbush (Jan 1972), and his angel and devil problem (Feb 1974). In the September 1976 column he reviewed Conway's book On Numbers and Games and introduced the public to Conway's surreal numbers. Conferences called Gathering 4 Gardner are held every two years to celebrate the legacy of Martin Gardner, and Conway himself is often a featured speaker at these events, discussing various aspects of recreational mathematics.</p>
+    </br>
+    <i>Source: <a href="https://en.wikipedia.org/wiki/JohnHortonConway">https://en.wikipedia.org/wiki/JohnHortonConway</a></i>
+  </div>
+  </div>
+  <div class="row" id="closingblock">
+    <div class="col-md-12">
+    <h2>Read more about it</h2>
+    <ul>
+      <li>You can play around with the game of life
+        <a href="https://bitstorm.org/gameoflife/">here</a></li>
+      <li><a href="http://conwaylife.com/">Here</a> is a community for cConway's Game of Life and related cellular automata.</li>
+      <li>You can download an open source cross-platform application for exploring Conway's Game of Life <a href="http://golly.sourceforge.net/">here</a></li>
+    </ul>
+    </div>
+  </div>
+</div>
+
